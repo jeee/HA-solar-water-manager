@@ -1,0 +1,11 @@
+{
+  "domain": "solar_water_manager",
+  "name": "Solar Water Manager",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/jeee/HA-solar-water-manager",
+  "issue_tracker": "https://github.com/jeee/HA-solar-water-manager/issues",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "requirements": []
+}
