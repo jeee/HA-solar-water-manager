@@ -1,0 +1,24 @@
+{
+  "title": "Solar Water Manager",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Solar Water Manager",
+        "description": "Monitor-only advisory controller. All values can be changed later with Configure.",
+        "data": {}
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Solar Water Manager is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Solar Water Manager",
+        "description": "Adjust entities, water thresholds, battery reserve, solar planning and generator policy.",
+        "data": {}
+      }
+    }
+  }
+}
