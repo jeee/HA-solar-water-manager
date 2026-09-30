@@ -1,0 +1,33 @@
+DOMAIN = "solar_water_manager"
+PLATFORMS = ["sensor", "binary_sensor"]
+
+DEFAULTS = {
+    "water_entity": "sensor.watersensor_water_level_2",
+    "battery_soc_entity": "sensor.venus_dc_battery_charge",
+    "battery_power_entity": "sensor.venus_dc_battery_power",
+    "battery_state_entity": "sensor.venus_dc_battery_state",
+    "battery_discharge_energy_entity": "sensor.venus_dc_battery_discharge_energy",
+    "pv_power_entity": "sensor.venus_pv_power",
+    "pv_energy_entity": "sensor.venus_pv_energy",
+    "forecast_remaining_entity": "sensor.energy_production_today_remaining",
+    "forecast_tomorrow_entity": "sensor.energy_production_tomorrow",
+    "weather_primary_entity": "weather.praia_do_amado",
+    "weather_secondary_entity": "weather.forecast_home",
+    "generator_state_entity": "sensor.generator_start_stop_run_state",
+    "ac_source_entity": "sensor.venus_ac_active_input_source",
+    "full_depth_cm": 250.0,
+    "full_tolerance_cm": 5.0,
+    "low_depth_cm": 60.0,
+    "critical_depth_cm": 30.0,
+    "minimum_depth_cm": 20.0,
+    "battery_reserve_margin_pct": 10.0,
+    "minimum_battery_soc_pct": 35.0,
+    "generator_guard_soc_pct": 35.0,
+    "minimum_good_pv_w": 1800.0,
+    "high_battery_soc_pct": 85.0,
+    "water_history_days": 7,
+    "overnight_history_days": 7,
+    "forecast_horizon_days": 7,
+    "generator_policy": "emergency_only",
+    "monitor_only": True,
+}
