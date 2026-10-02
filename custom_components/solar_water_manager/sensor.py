@@ -13,10 +13,10 @@ SENSORS = [
     ("water_trend_cm_day", "Water trend", "cm/day", None, SensorStateClass.MEASUREMENT),
     ("days_to_minimum", "Estimated days to minimum", UnitOfTime.DAYS, SensorDeviceClass.DURATION, SensorStateClass.MEASUREMENT),
     ("avg_overnight_soc_pct", "Average overnight battery use", PERCENTAGE, None, SensorStateClass.MEASUREMENT),
-    ("avg_overnight_kwh", "Average overnight discharge", UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, SensorStateClass.MEASUREMENT),
+    ("avg_overnight_kwh", "Average overnight discharge", UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, None),
     ("target_sunset_soc_pct", "Target sunset SOC", PERCENTAGE, None, SensorStateClass.MEASUREMENT),
-    ("solar_remaining_kwh", "Solar remaining today", UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, SensorStateClass.MEASUREMENT),
-    ("solar_tomorrow_kwh", "Solar forecast tomorrow", UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, SensorStateClass.MEASUREMENT),
+    ("solar_remaining_kwh", "Solar remaining today", UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, None),
+    ("solar_tomorrow_kwh", "Solar forecast tomorrow", UnitOfEnergy.KILO_WATT_HOUR, SensorDeviceClass.ENERGY, None),
     ("overnight_samples", "Overnight learning samples", None, None, SensorStateClass.MEASUREMENT),
 ]
 
